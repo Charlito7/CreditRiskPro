@@ -1,0 +1,9 @@
+Copiez ici les deux fichiers .joblib et le fichier manifest_modeles.json.
+
+
+MISE À JOUR — DERNIER NOTEBOOK
+- Seuil avec loan_grade : 0,45
+- Seuil sans loan_grade : 0,40
+- Méthode : meilleur F1-score par validation croisée sur le jeu d'entraînement
+- Fichier de seuils : seuils_decision.joblib
+L'application charge automatiquement le seuil correspondant au modèle sélectionné.
